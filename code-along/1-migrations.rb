@@ -26,3 +26,6 @@
 # - Add model and table for the Contact entity in our domain model
 
 # repeat steps 1-5 above.
+
+# to completely redo stuff with the tables for example you perma delete the development sqlite3 file under db->migrate; and then make edits and re migrate
+# to view table rails runner data.rb

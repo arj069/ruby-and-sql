@@ -5,4 +5,21 @@
 
 # String Class
 
-# String Methods
+# favorite_food = "tacos"
+# bens_favorite_food = "kale"
+
+# # String Methods
+
+# puts favorite_food.class
+
+class Dog < Hash
+
+    def speak
+        "woof"
+    end
+
+end
+
+my_dog = Dog.new
+my_dog["name"] = "Jenkins"
+puts "#{my_dog["name"]} is here"
